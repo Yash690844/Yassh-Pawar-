@@ -1,0 +1,56 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #f0f4f8, #e0eaf7);
+  color: #333;
+}
+
+.resume-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  color: #0275d8;
+}
+
+.highlight {
+  color: #d9534f;
+}
+
+.skills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background: #0275d8;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  background: #f7f7f7;
+}
